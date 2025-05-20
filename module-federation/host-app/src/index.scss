@@ -1,0 +1,14 @@
+@import 'bootstrap/scss/bootstrap';
+
+$primary-color: #3366ff;
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f7f8fa;
+}
+
+h1 {
+    padding: 1rem 2rem;
+    color: $primary-color;
+}

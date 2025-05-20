@@ -2,7 +2,7 @@
     "name": "remote-app",
     "version": "1.0.0",
     "scripts": {
-        "start": "webpack serve --port 3001"
+        "start": "webpack serve --port 8061"
     },
     "dependencies": {
         "autoprefixer": "^10.4.21",

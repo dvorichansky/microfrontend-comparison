@@ -6,10 +6,10 @@ module.exports = {
     output: {
         filename: 'remoteEntry.js',
         library: { type: 'system' },
-        publicPath: 'http://localhost:3001/',
+        publicPath: 'http://localhost:8061/',
     },
     devServer: {
-        port: 3001,
+        port: 8061,
         headers: {
             'Access-Control-Allow-Origin': '*',
         },

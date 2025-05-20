@@ -7,7 +7,7 @@ export default function App() {
         Promise.all([
             System.import('react'),
             System.import('react-dom'),
-            System.import('http://localhost:3001/remoteEntry.js'),
+            System.import('http://localhost:8061/remoteEntry.js'),
         ])
             .then(() => {
                 setLoaded(true);

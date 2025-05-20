@@ -7,7 +7,7 @@ module.exports = {
         publicPath: 'auto',
     },
     devServer: {
-        port: 3000,
+        port: 8060,
     },
     module: {
         rules: [

@@ -2,7 +2,7 @@
     "name": "host-app",
     "version": "1.0.0",
     "scripts": {
-        "start": "webpack serve --port 3000"
+        "start": "webpack serve --port 8060"
     },
     "dependencies": {
         "autoprefixer": "^10.4.21",
